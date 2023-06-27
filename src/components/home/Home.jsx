@@ -12,13 +12,18 @@ const Home = () => {
     const [activeIndex,setActiveIndex] = useState(0);
     const [showFilter,setShowFilter] = useState(false);
     const [type,setType] = useState("");
+    const [searchValue,setSearchValue] = useState("");
+
+    const handleChange = (e) => {
+        setSearchValue(e.target.value);
+    }
 
     return(
         <div className ="home">
             <div className="headBar">
                 <div className = "searchBar">
                     <img src = {searchBar} />
-                    <input type="text" placeholder="Search address, or near you" />
+                    <input type="text" placeholder="Search address, or near you" onChange={handleChange}/>
                 </div>
                 <div className ="filter" onClick={() => {setShowFilter(prev=>!prev); type == '' ? setType('House') : setType('')}}>
                     <img src = {filter} />
@@ -36,7 +41,11 @@ const Home = () => {
             </div>
                <h3> Near from you </h3> 
             <div className = "houseOption">
-                {data.filter((item)=>{
+                {data
+                .filter((item)=>{
+                    return item.productTitle.toLowerCase().includes(searchValue.toLowerCase())
+                })
+                .filter((item)=>{
                     if(type == ''){
                         return item;
                     }else{

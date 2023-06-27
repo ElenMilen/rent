@@ -8,7 +8,7 @@ const data = [
     {
         id: 0,
         productImage: house,
-        productTitle: 'Dreamsville House',
+        productTitle: 'Dreamsville Villa',
         productSubTitle: 'Jl. Sultan Iskandar Muda, Jakarta selatan',
         productRoomInfo: {bedroom:6, bathroom:4},
         type: "Villa",
@@ -21,7 +21,7 @@ const data = [
     {
         id: 1,
         productImage: house2,
-        productTitle: 'Dreamsville House',
+        productTitle: 'Morning Glory Hotel',
         productSubTitle: 'Jl. Sultan Iskandar Muda, Jakarta selatan',
         productRoomInfo: {bedroom:6, bathroom:4},
         type: "Hotel",
@@ -34,7 +34,7 @@ const data = [
     {
         id: 2,
         productImage: house3,
-        productTitle: 'Dreamsville House',
+        productTitle: 'Bogg View Home',
         productSubTitle: 'Jl. Sultan Iskandar Muda, Jakarta selatan',
         productRoomInfo: {bedroom:6, bathroom:4},
         type: "House",
@@ -47,7 +47,7 @@ const data = [
     {
         id: 3,
         productImage: house4,
-        productTitle: 'Dreamsville House',
+        productTitle: 'Wonderland House',
         productSubTitle: 'Jl. Sultan Iskandar Muda, Jakarta selatan',
         productRoomInfo: {bedroom:6, bathroom:4},
         type: "House",
@@ -60,7 +60,7 @@ const data = [
     {
         id: 4,
         productImage: house5,
-        productTitle: 'Dreamsville House',
+        productTitle: 'The Last Resort',
         productSubTitle: 'Jl. Sultan Iskandar Muda, Jakarta selatan',
         productRoomInfo: {bedroom:6, bathroom:4},
         type: "Hotel",
