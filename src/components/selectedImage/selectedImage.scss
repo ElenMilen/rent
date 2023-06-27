@@ -1,0 +1,55 @@
+.selectedImage {
+    width: 316px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    .title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .description{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #D5D5D5;
+    }
+    .details{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        .bedroom{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #D4D4D4;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+        .bathroom{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #D4D4D4;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+                }
+    }
+}
+

@@ -1,0 +1,83 @@
+.description{
+    padding-top: 15px;
+    font-family: 'Raleway';
+    p{
+        color: #858585;
+    }
+}
+.showMore{
+    color: rgb(83, 130, 177);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.personPhoto{
+    background-image: url('../../assets/images/personPhoto.png');
+    width: 40px;
+    height: 40px;
+}
+.personName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 16px;
+
+}
+.personInfo{
+    display: flex;
+}
+.personRole{
+    font-size: 12px;
+}
+.contactIcons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.descContactInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.contactIconCall{
+    background-image: url('../../assets/images/contactIconCall.png');
+    width: 24px;
+    height: 24px;
+    background-color: #0A8ED990;
+    border-radius: 5px
+}
+.contactIconMessage{
+    background-image: url('../../assets/images/contactIconMessage.png');
+    width: 24px;
+    height: 24px;
+    background-color: #0A8ED990;
+    border-radius: 5px
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gallery1{
+    background-image: url('../../assets/images/gallery1.png');
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}
+.gallery2{
+    background-image: url('../../assets/images/gallery2.png');
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}
+.gallery3{
+    background-image: url('../../assets/images/gallery3.png');
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}
+.gallery4{
+    background-image: url('../../assets/images/gallery4.png');
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+}

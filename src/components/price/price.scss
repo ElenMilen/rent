@@ -1,0 +1,22 @@
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+    align-items: flex-end;
+}
+.rentPrice{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.rentNow{
+    padding: 10px;
+    background: linear-gradient(180deg, #A0DAFB -22.93%, #0A8ED9 131.41%);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+        background: linear-gradient(-180deg, #0A8ED9 131.41%, #A0DAFB -22.93%);
+    }
+}
