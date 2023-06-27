@@ -6,7 +6,6 @@ import Home from './components/home/Home';
 function App() {
   return (
     <div className="App">
-      asdasdsadasds
       <Routes>
         <Route path="rent" index element={<Home />} />
         <Route path="/selected/:id" element={<SelectedHouse />} />
