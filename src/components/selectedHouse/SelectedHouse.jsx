@@ -13,7 +13,7 @@ const SelectedHouse = () => {
     
     return(
         <div className ="selectedHouse">
-            <Link to='rent'>
+            <Link to='/rent'>
                 <img className="backButton" src = {backButton} alt="back" />
             </Link>
             <SelectedImage productImage={data[id].productImage} productTitle={data[id].productTitle} productSubTitle={data[id].productSubTitle} productRoomInfo={data[id].productRoomInfo}/>

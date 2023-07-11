@@ -72,7 +72,7 @@ const Home = () => {
                                     {item.productTitle}
                                 </div>
                                 <div> 
-                                    {item.productPrice} price
+                                    {item.price} 
                                 </div>
                                 <div className ="details">
                                     
